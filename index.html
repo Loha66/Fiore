@@ -3,92 +3,154 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Fiore – Café, Flowers & Bar</title>
   <meta name="description" content="Fiore is an affordable and inclusive café that combines coffee, flowers, workshops, local art and a relaxed evening bar." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
 
+<body>
   <header class="hero">
     <nav class="navbar">
-      <div class="logo">Fiore</div>
+      <a class="logo" href="#">Fiore</a>
+
       <div class="nav-links">
         <a href="#concept">Concept</a>
-        <a href="#values">Values</a>
+        <a href="#difference">Why Fiore</a>
+        <a href="#experience">Experience</a>
         <a href="#video">Pitch</a>
-        <a href="#booking">Book</a>
+        <a class="nav-button" href="#booking">Book</a>
       </div>
     </nav>
 
     <section class="hero-content">
-      <p class="tagline">Coffee. Flowers. Community.</p>
-      <h1>A welcoming café that blooms into a relaxed bar.</h1>
-      <p class="hero-text">
-        Fiore is an affordable and inclusive third place in the city. During the day, it offers coffee, studying,
-        flower creation and local art. In the evening, it smoothly turns into a relaxed bar for meeting friends.
+      <p class="eyebrow">Coffee · Flowers · Community</p>
+      <h1>More than a café. A place to belong.</h1>
+      <p>
+        Fiore is an affordable and inclusive third place in the city. During the day, guests can study,
+        meet friends, create flower bouquets and discover local art. In the evening, the space smoothly
+        turns into a relaxed bar.
       </p>
-      <a class="button" href="#booking">Book a first visit</a>
+
+      <div class="hero-actions">
+        <a class="button primary" href="#booking">Book a first visit</a>
+        <a class="button secondary" href="#concept">Explore concept</a>
+      </div>
     </section>
   </header>
 
   <main>
-    <section id="concept" class="section split">
-      <div>
-        <p class="small-heading">The idea</p>
-        <h2>More than just another café.</h2>
-      </div>
-      <div>
-        <p>
-          Fiore combines different needs in one open space. Guests can study, work, meet friends,
-          arrange their own flower bouquets or take part in creative workshops. The flowers are part of the
-          decoration, but they can also be bought, which makes the space feel natural and constantly changing.
-        </p>
-        <p>
-          In the evening, the atmosphere changes smoothly through lighting, music and drinks. Instead of becoming
-          a loud party bar, Fiore stays relaxed and social, offering beer, wine and long drinks.
-        </p>
+    <section id="concept" class="section intro-section">
+      <div class="section-label">The concept</div>
+      <div class="intro-grid">
+        <div>
+          <h2>An open space that changes with the day.</h2>
+        </div>
+        <div class="intro-text">
+          <p>
+            Fiore combines a café, flower experience, local showroom and evening bar in one flexible location.
+            The goal is not to create another expensive and highly aesthetic café, but a welcoming place where
+            different people feel comfortable for different reasons.
+          </p>
+          <p>
+            Flowers are part of the atmosphere and can also be purchased or arranged by guests themselves.
+            This makes the interior dynamic, creative and connected to the people using the space.
+          </p>
+        </div>
       </div>
     </section>
 
-    <section id="values" class="section cards">
-      <p class="small-heading">Why Fiore?</p>
-      <h2>Built around inclusivity, affordability and creativity.</h2>
+    <section id="difference" class="section difference-section">
+      <div class="section-label">Why Fiore?</div>
+      <h2>Designed around real customer needs.</h2>
 
-      <div class="card-grid">
+      <div class="cards">
         <article class="card">
-          <h3>Inclusive</h3>
-          <p>Fiore is designed as a welcoming place for different people, budgets and reasons to visit.</p>
-        </article>
-        <article class="card">
+          <span class="icon">☕</span>
           <h3>Affordable</h3>
-          <p>Fair prices and student-friendly offers, including possible coffee flats during exam periods.</p>
+          <p>Fair prices, student-friendly offers and possible coffee flats during exam periods.</p>
         </article>
+
         <article class="card">
-          <h3>Creative</h3>
-          <p>Guests can create their own bouquets, join workshops and discover local artists.</p>
+          <span class="icon">🌸</span>
+          <h3>Interactive</h3>
+          <p>Guests can create their own flower bouquets while having coffee or joining workshops.</p>
         </article>
+
         <article class="card">
-          <h3>Sustainable</h3>
-          <p>Plant-based milk is cheaper than cow milk to encourage sustainable choices in an easy way.</p>
+          <span class="icon">🎨</span>
+          <h3>Local</h3>
+          <p>Artists can use Fiore as a showroom, creating a stronger connection to the local community.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon">🍷</span>
+          <h3>Flexible</h3>
+          <p>The café smoothly becomes a relaxed evening bar with beer, wine and long drinks.</p>
         </article>
       </div>
     </section>
 
-    <section class="section quote-section">
+    <section id="experience" class="section experience-section">
+      <div class="experience-content">
+        <div>
+          <div class="section-label">The experience</div>
+          <h2>From studying to socialising — without changing places.</h2>
+          <p>
+            Fiore is made for longer stays, spontaneous meetings and small moments of creativity. In exam time,
+            students can use the space to study. On other days, guests may come for coffee, a workshop, flowers
+            or a relaxed drink in the evening.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <span>Morning</span>
+            <p>Coffee, calm atmosphere and space to work or study.</p>
+          </div>
+          <div class="timeline-item">
+            <span>Afternoon</span>
+            <p>Flower arranging, local art and creative workshops.</p>
+          </div>
+          <div class="timeline-item">
+            <span>Evening</span>
+            <p>Warm lighting, music, beer, wine and long drinks.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-section">
       <blockquote>
         “Fiore is not about paying more for aesthetics. It is about creating a place where people feel welcome,
         stay longer and connect with others.”
       </blockquote>
     </section>
 
+    <section class="section gallery-section">
+      <div class="section-label">Impression</div>
+      <h2>A natural, warm and changing atmosphere.</h2>
+
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=80" alt="Flowers in warm light">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80" alt="Cozy café interior">
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80" alt="People working together">
+      </div>
+    </section>
+
     <section id="video" class="section video-section">
-      <p class="small-heading">Pitch video</p>
+      <div class="section-label">Pitch video</div>
       <h2>Discover Fiore in 45 seconds.</h2>
-      <p>Watch the short pitch video to understand the value proposition and the idea behind the concept.</p>
+      <p>Watch the pitch video to understand Fiore’s value proposition and target group.</p>
 
       <div class="video-wrapper">
         <!-- Replace YOUR_VIDEO_ID with your own YouTube video ID -->
-        <iframe 
+        <iframe
           src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
           title="Fiore Pitch Video"
           frameborder="0"
@@ -97,24 +159,26 @@
       </div>
     </section>
 
-    <section id="booking" class="section booking">
-      <p class="small-heading">Get involved</p>
-      <h2>Be one of the first people to test Fiore.</h2>
-      <p>
-        Interested in testing the concept, joining a flower workshop or giving feedback?
-        Book a short appointment here.
-      </p>
+    <section id="booking" class="booking-section">
+      <div class="booking-card">
+        <div class="section-label">Get involved</div>
+        <h2>Be one of the first people to test Fiore.</h2>
+        <p>
+          Interested in testing the concept, joining a flower workshop or giving feedback?
+          Book a short appointment and help shape the first version of Fiore.
+        </p>
 
-      <!-- Replace this link with your own Calendly link -->
-      <a class="button light" href="https://calendly.com/YOUR-LINK" target="_blank">
-        Book an appointment
-      </a>
+        <!-- Replace this link with your own Calendly link -->
+        <a class="button primary" href="https://calendly.com/YOUR-LINK" target="_blank">
+          Book an appointment
+        </a>
+      </div>
     </section>
   </main>
 
   <footer>
     <p>© 2026 Fiore – Café, Flowers & Bar</p>
+    <p>Affordable · Inclusive · Creative</p>
   </footer>
-
 </body>
 </html>
